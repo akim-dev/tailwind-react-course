@@ -1,5 +1,3 @@
-import React from "react";
-
 function ProductModal() {
   return (
     <div>
@@ -61,6 +59,15 @@ function ProductModal() {
                     className="w-8"
                   />
                   <span>Add to chart</span>
+                </button>
+                {/* wishlist */}
+                <button className="flex items-center justify-center py-3 space-x-3 border-2 border-gray-200 rounded-lg hover:bg-opacity-30 duration-200 shadow-sm hover:shadow-xl hover:-translate-y-0.5 translation-all  ">
+                  <img
+                    src="https://source.unsplash.com/black-and-silver-headphones-on-white-surface-LSNJ-pltdu8"
+                    alt=""
+                    className="w-8"
+                  />
+                  <span>Add wishlist</span>
                 </button>
               </div>
             </div>
