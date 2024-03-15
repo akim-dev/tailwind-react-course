@@ -37,11 +37,15 @@ function LoginModal() {
               or login with
             </p>
             {/* bottom button container */}
-            <div className="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0">
+            <div className="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0 justify-between">
               {/* facebook button */}
              <button className="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg duration-150">
              <FaFacebookSquare className="w-9" />
-              <span className="font-thin">Facebook</span>
+              <span className="font-thin pr-6">Facebook</span>
+             </button>
+             <button className="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg duration-150">
+             <FaFacebookSquare className="w-9" />
+              <span className="font-thin pr-6">Facebook</span>
              </button>
             </div>
           </div>
