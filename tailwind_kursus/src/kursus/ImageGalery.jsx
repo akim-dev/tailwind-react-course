@@ -1,5 +1,3 @@
-import React from "react";
-
 function ImageGalery() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-cyan-50">
